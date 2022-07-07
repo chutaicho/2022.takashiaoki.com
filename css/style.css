@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Feixen';
+    src: url("../fonts/FeixenSansVariable.ttf");
+}
+@font-face {
+    font-family: 'Acumin';
+    src: url("../fonts/AcuminVariableConcept.otf");
+}
+
+body {
+    font-family: "Feixen" !important;
+    font-variation-settings: 'wght' 100, 'wdth' 30;
+    background-color:navy;
+    color: aliceblue;
+}
+th, td {
+    border-bottom: none !important;
+}
+.headline{
+    letter-spacing: 0.1em;
+    font-variation-settings: 'wght' 300, 'wdth' 100;
+}
+h3{
+    font-variation-settings: 'wght' 100, 'wdth' 20;
+}
+h5{
+    font-variation-settings: 'wght' 300, 'wdth' 50;
+}
+.normal-text{
+    font-variation-settings: 'wght' 100, 'wdth' 10;   
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+    color: white; 
+}
+a:hover {
+    color: yellow;
+}
+/* h3 > a {
+    color: white; 
+}
+h3 > a:hover {
+    color: lightgoldeyenrodyellow;
+} */
