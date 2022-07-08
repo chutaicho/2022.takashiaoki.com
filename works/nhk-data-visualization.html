@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Takashi Aoki - 3D / Motion / Code</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="../image/png" href="../images/favicon.png">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="../css/style.css"> 
+
+  <style>
+    body {
+      background-color: black;
+    }
+    .cover {
+      position: fixed; top: 0; left: 0; z-index: -1;
+      width: 100%; height: 100vh;
+      opacity: 0.5;
+      background-image: url(../images/nhk-dataviz-bg.jpeg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  </style>
+  
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="module" src="../js/index.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
+</head>
+<body>
+  <div class="cover"></div>
+  <div class="container">
+    <div id="header" class="row sub"></div>
+    <hr/>
+    <h4 class="headline">NHK<br>
+      Data Visualization Graphics</h4>
+    <div class="row">
+      <div class="three columns" style="padding-bottom: 10%;">
+        Client<br>
+        <a href="http://nhk.or.jp/" target="_blank">NHK</a><br><br>
+        Production<br>
+        <a href="https://ranagram.com" target="_blank">RANAGRAM</a><br>
+      </div>
+      <div class="nine columns">
+        <p>A series of real-time data visualization graphics for NHK. I am working on the development of interactive visuals for various broadcasting programs such as NHK Special documentary since 2014.</p>
+        <p>By making real-time graphics that can be controlled by hand, it plays a role not only as the video material but also as the scenario making / data analysis tool for the program. We are involved in repeated discussions with directors and journalists from the planning stage of the project, and updating the prototype together.</p>  
+      </div>      
+    </div>
+    <hr/>
+    <div class="row">
+      <h5 class="headline">Medical Big Data</h5>
+      <p>C++/OpenGL Application, Built with <a href="https://openframeworks.cc/" target="_blank">OpenFrameworks.</a></p>
+      <p>Data visualization project for NHK special documentary Medical Big Data. It visualized one year chronological data of nurse calls in a hospital in Kumamoto (approximately 1 million calls total of 400+ beds) as a clock like diagram. We designed and developped a desktop application (OpenGL) for broadcasting and a simplified web application (built with d3.js) for the program’s website.</p>
+      
+      <h5 class="headline">AI Hiroshi</h5>
+      <p>Unity Application</p>
+      
+      <h5 class="headline">AI Hiroshi Prototype</h5>
+      <p>Unity Application</p>
+
+      <h5 class="headline">Data driven crowd simulation</h5>
+      <p>Unity Application</p>
+      <p>A real-time crowd simulation app that visualizes data from a wide variety of source collected by NHK. We planned the application concept and made some app prototypes, commissioned by NHK special documentary team. It creates various types of graphs with crowd simulation such as bubble / cluster charts, bar graphs and pie charts based on the content of data.</p>
+      <p>The aim of this project is to visualize the structure of data from the AI program built by NHK and use it as a part of their documentary and news programs. We designed and developed an original graphic engine to deal with the complex crowd formations and render the large amount of human models as real-time graphics.</p>
+
+      <h5 class="headline">Earthquake Big Data</h5>      
+      <p>C++/OpenGL Application, Built with <a href="https://openframeworks.cc/" target="_blank">OpenFrameworks.</a></p>
+      <p>Real-time data visualization app which visualized POS data (approximately 100 millions samples in total) of all over Japan in March 2011, the month when the huge earthquake hits, to see changes in purchasing status before and after the disaster in interactive 3D view.</p>
+      <br>
+    </div>
+    <hr/>
+    <div class="row">
+      <h4 class="headline">Team Member</h4>
+      <div class="six columns">
+        Yasuo Kaneda<br>
+        <span class="role">Producer</span><br><br>
+
+        Sho Narita<br>
+        <span class="role">Producer</span><br><br>
+        
+        Takashi Aoki<br>
+        <span class="role">Design Direction<br>Visual Design<br>
+        Software Prototyping</span><br><br>
+      </div>
+      <div class="five columns">
+        Masahide Yoshida<br>
+        <span class="role">Software Development</span><br><br>
+        
+        Yuki Chikada<br>
+        <span class="role">Software Development</span><br><br>
+        
+        Kohei Nakada<br>
+        <span class="role">Software Development</span><br><br>
+
+        NHK AI Room<br>
+        <span class="role">Data Engineer</span><br><br>
+        
+      </div>
+    </div>
+    <hr/>
+    <div id="footer" class="row sub">
+
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
