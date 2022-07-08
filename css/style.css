@@ -29,9 +29,11 @@ h5{
 .normal-text{
     font-variation-settings: 'wght' 100, 'wdth' 10;   
 }
+.role{
+    color: grey;
+}
 
-
-/* Links
+/* Links Override
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
     color: white; 
@@ -39,6 +41,13 @@ a {
 a:hover {
     color: yellow;
 }
+
+/* Lists Override
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+    list-style: circle outside !important; 
+}
+
 /* h3 > a {
     color: white; 
 }
