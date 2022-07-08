@@ -48,10 +48,8 @@ const FooterSubElement = `
     </div>
 `;
 
-const location = document.location.pathname;
-//console.log(location.includes('/works'));
 const header = document.getElementById('header');
-header.innerHTML = (location.includes('/works')) ? HeaderSubElement : HeaderElement;
+header.innerHTML = (header.classList.contains('sub')) ? HeaderSubElement : HeaderElement;
 const footer = document.getElementById('footer');
-footer.innerHTML = (location.includes('/works')) ? FooterSubElement : FooterElement;
+footer.innerHTML = (footer.classList.contains('sub')) ? FooterSubElement : FooterElement;
 
