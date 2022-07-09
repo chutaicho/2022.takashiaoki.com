@@ -25,6 +25,9 @@
     body {
       background-color: black;
     }
+    .mask {
+      opacity: 0.8 !important;
+    }
   </style>
   
   <!-- JS
@@ -34,6 +37,10 @@
 
 </head>
 <body>
+  <video autoplay loop id="video-bg" muted>
+    <source src="../videos/nec-bg.mp4" type="video/mp4">
+  </video>
+  <div class="mask"></div>
 
   <div class="container">
     <div id="header" class="row sub"></div>
