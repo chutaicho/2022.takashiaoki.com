@@ -2,11 +2,6 @@
     font-family: 'Feixen';
     src: url("../fonts/FeixenSansVariable.ttf");
 }
-@font-face {
-    font-family: 'Acumin';
-    src: url("../fonts/AcuminVariableConcept.otf");
-}
-
 body {
     font-family: "Feixen" !important;
     font-variation-settings: 'wght' 100, 'wdth' 30;
@@ -48,6 +43,22 @@ ul {
     list-style: circle outside !important; 
 }
 
+/* Video Background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#video-bg {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -10;
+    /* background: url(image/sampleposter.jpg) no-repeat; */
+    background-position: center center;
+    background-size: cover;
+}
+.mask {
+    position: fixed; top: 0; left: 0; z-index: -1;
+    width: 100%; height: 100vh;
+    opacity: 0.5;
+    background-color: black;
+}
 /* h3 > a {
     color: white; 
 }
