@@ -15,6 +15,10 @@ th, td {
     letter-spacing: 0.1em;
     font-variation-settings: 'wght' 300, 'wdth' 100;
 }
+.headline-small{
+    letter-spacing: 0.1em;
+    font-variation-settings: 'wght' 300, 'wdth' 50;
+}
 h3{
     font-variation-settings: 'wght' 100, 'wdth' 20;
 }
