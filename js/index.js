@@ -34,7 +34,7 @@ const FooterElement = `
     <div class="six columns" style="margin-bottom: 10%">
         <a href="https://www.linkedin.com/in/chutaicho/" target="_blank">Linkedin</a><br>
         <a href="https://www.instagram.com/chutaicho/" target="_blank">Instagram</a><br>
-        <a href=".">MAIL</a><br>
+        <a href="mailto:chutaicho@gmail.com">MAIL</a><br>
     </div>
 `;
 const FooterSubElement = `
@@ -46,7 +46,7 @@ const FooterSubElement = `
     <div class="six columns" style="margin-bottom: 10%">
         <a href="https://www.linkedin.com/in/chutaicho/" target="_blank">Linkedin</a><br>
         <a href="https://www.instagram.com/chutaicho/" target="_blank">Instagram</a><br>
-        <a href=".">MAIL</a><br>
+        <a href="mailto:chutaicho@gmail.com">MAIL</a><br>
     </div>
 `;
 
