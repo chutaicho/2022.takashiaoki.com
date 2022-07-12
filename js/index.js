@@ -8,7 +8,7 @@ const HeaderElement = `
         <a href='./bio.html'>Bio</a> / 
         <a href='https://www.linkedin.com/in/chutaicho/'  target='_blank'>Linkedin</a> / 
         <a href='https://www.instagram.com/chutaicho/' target='_blank'>Instagram</a> / 
-        <a href='https://aokihajime.sakura.ne.jp/takashi/' target='_blank'>Archive</a>
+        <a href='./archive.html'>Past Archive</a>
         <br><br>
     </div>
 `;
@@ -20,7 +20,7 @@ const HeaderSubElement = `
         <a href='../bio.html'>Bio</a> / 
         <a href='https://www.linkedin.com/in/chutaicho/'  target='_blank'>Linkedin</a> / 
         <a href='https://www.instagram.com/chutaicho/' target='_blank'>Instagram</a> / 
-        <a href='https://aokihajime.sakura.ne.jp/takashi/' target='_blank'>Archive</a>
+        <a href='./archive.html'>Past Archive</a>
         <br><br>
     </div>
 `;
@@ -29,7 +29,7 @@ const FooterElement = `
     <div class="six columns" style="margin-bottom: 10%">
         <a href="./index.html">Home</a><br>
         <a href="./bio.html">Bio</a><br>
-        <a href="https://aokihajime.sakura.ne.jp/takashi/" target="_blank">Past Archive</a><br>
+        <a href="./archive.html">Past Archive</a><br>
     </div>
     <div class="six columns" style="margin-bottom: 10%">
         <a href="https://www.linkedin.com/in/chutaicho/" target="_blank">Linkedin</a><br>
@@ -41,7 +41,7 @@ const FooterSubElement = `
     <div class="six columns" style="margin-bottom: 10%">
         <a href="../index.html">Home</a><br>
         <a href="../bio.html">Bio</a><br>
-        <a href="https://aokihajime.sakura.ne.jp/takashi/" target="_blank">Past Archive</a><br>
+        <a href="./archive.html">Past Archive</a><br>
     </div>
     <div class="six columns" style="margin-bottom: 10%">
         <a href="https://www.linkedin.com/in/chutaicho/" target="_blank">Linkedin</a><br>
