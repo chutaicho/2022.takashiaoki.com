@@ -34,6 +34,18 @@
     a:hover {
       color: white; 
     }
+    button, input[type="button"]{
+      color: black;
+      border: 1px solid #000;
+    }
+    input[type="password"]{
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+    }
+    ::placeholder{
+      color: #000;
+    }
     </style>
 
   <!-- JS
@@ -48,10 +60,10 @@
     <div id="header" class="row"></div>
     
     <hr/>
-
     <div class="row">
       <h3 class="headline">Private Area</h3>
-      <p>Please contact me if you kindly have interest to see my past project archive. Thank you.</p>
+      <input class="" type="password" placeholder="Enter password" id="pwdInput">
+      <input type="button" value="Log In">      <p>Please contact me if you kindly have interest to see my past project archive. Thank you.</p>
       <p>👉 Send a <a href="mailto:chutaicho@gmail.com">MAIL</a>.</p>
     </div>
 
