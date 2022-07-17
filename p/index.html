@@ -34,6 +34,22 @@
     a:hover {
       color: white; 
     }
+    .menu{
+      position: fixed;
+      top: 0; left: 0; z-index: 10;
+      background-color: white;
+      width: 200px;
+      height: 100%;
+      padding: 2% 2%;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      display: none;
+      
+    }
+    .menu::-webkit-scrollbar {
+      display: none;
+    }
     </style>
 
   <!-- JS
@@ -43,14 +59,42 @@
 
 </head>
 <body>
-
+  <div class="menu">
+    <p>←</p>
+    <h4 class="headline">Table of Contents</h4>
+    <h6><a href=".">Toyota Boshoku, Motion Graphics</a></h6>
+      <h6><a href=".">Service Now, Data visualization</a></h6>
+      <h6><a href="">TABIDO MARUNOUCHI</a></h6>
+      <h6><a href="">Kumamoto Catsle Stone Wall Restoration</a></h6>
+      <h6><a href="">LUX 25th Anniversary “Bloom to shine”</a></h6>
+      <h6><a href="">Nissan Marketing Data Visualization</a></h6>
+      <h6><a href="">NHK Data Navigator</a></h6>
+      <h6><a href="">NHK Special: Medical Big Data</a></h6>
+      <h6><a href="">NHK Special: Earthquake Big Data</a></h6>
+      <h6><a href="">NHK Special: AI Hiroshi</a></h6>
+      <h6><a href="">NHK Special: Crowd Simulation</a></h6>
+      <h6><a href="">Abeno HARUKAS Escarator Hall</a></h6>
+      <h6><a href="">Docomo Palette UI Installation</a></h6>
+      <h6><a href="">Yasukawa Robotics Experience</a></h6>
+      <h6><a href="">Is anyone there?</a></h6>
+      <h6><a href="">Light Rain</a></h6>
+      <h6><a href="">Addlib</a></h6>
+      <h6><a href="">Snow Drops</a></h6>
+      <h6><a href="">Panasonic “SEED”</a></h6>
+      <h6><a href="">ATAK + WOW Audio Visual Concert</a></h6>
+      <h6><a href="">Hattendo Ebisu Station</a></h6>
+      <h6><a href="">Tokyo Michiterasu</a></h6>
+      <h6><a href="">Shugo Tokumaru “Port entropy”</a></h6>
+      <h6><a href="">Shugo Tokumaru “BRICOLAGE MUSIC”</a></h6>
+      <h6><a href="">Songs for Oblivion Fisherman VII</a></h6>
+  </div>
   <div class="container">
     <div id="header" class="row sub"></div>
-    
-    <hr/>
-
+        
+    <hr />
     <div class="row">
-      <h3 class="headline">Past Archive</h3>
+      
+      <!-- <h3 class="headline">Past Archive</h3>
       <h4><a href=".">Toyota Boshoku, Motion Graphics</a></h4>
       <h4><a href=".">Service Now, Data visualization</a></h4>
       <h4><a href="">TABIDO MARUNOUCHI</a></h4>
@@ -76,8 +120,7 @@
       <h4><a href="">Shugo Tokumaru “Port entropy”</a></h4>
       <h4><a href="">Shugo Tokumaru “BRICOLAGE MUSIC”</a></h4>
       <h4><a href="">Songs for Oblivion Fisherman VII</a></h4>
-
-
+      -->
     </div>
 
     <hr/>

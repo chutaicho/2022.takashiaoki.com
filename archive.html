@@ -51,21 +51,25 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="module" src="./js/index.js"></script>
-
+  <script type="module" src="./js/archive.js"></script>
 
 </head>
 <body>
-
   <div class="container">
     <div id="header" class="row"></div>
     
     <hr/>
-    <div class="row">
+    <div class="row" id="pwd-area">
       <h3 class="headline">Private Area</h3>
-      <input class="" type="password" placeholder="Enter password" id="pwdInput">
-      <input type="button" value="Log In">      <p>Please contact me if you kindly have interest to see my past project archive. Thank you.</p>
+      <input class="" type="password" placeholder="Enter password">
+      <input type="button" value="Log In" id="btn">
+      <!-- <p>Oops, wrong password.</p> -->
+    </div>      
+    <div class="row">
+      <p>Please contact me if you kindly have interest to see my past project archive. Thank you.</p>
       <p>👉 Send a <a href="mailto:chutaicho@gmail.com">MAIL</a>.</p>
     </div>
+
 
     <hr/>
     <div id="footer" class="row"></div>
